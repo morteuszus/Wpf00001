@@ -11,6 +11,6 @@ namespace Wpf00001.Core
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void OnPropertyChanged()
+        protected void OnPropertyChanged()sdsadasdasd
     }
 }
