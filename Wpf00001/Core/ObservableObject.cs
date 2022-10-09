@@ -11,6 +11,7 @@ namespace Wpf00001.Core
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void OnPropertyChanged()sdsadasdasd
+        protected void OnPropertyChanged()
+        // okay das ist mein dritte commit, first u need to commit and than push
     }
 }
