@@ -16,6 +16,6 @@ namespace Wpf00001.Core
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
-        // okay das ist mein dritte commit, first u need to commit and than pushdxf
+        // okay das ist mein dritte commit, first u need to commit and than pushdxf zmienione
     }
 }
