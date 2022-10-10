@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Wpf00001.Core
 {
-    internal class RelayCommand
+    class RelayCommand : ICommand
     {
+        private Action<object> execute;
+        private Func<object,bool> canExecute;
+
+        public event EventHandler CanExecuteChanged
+        {
+
+        }
     }
 }
