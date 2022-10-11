@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         ResizeMode="NoResize"
         Background="Transparent"
+        WindowStyle="None"
         AllowsTransparency="True"
         Title="MainWindow" Height="600" Width="920">
     <Border Background="#272537"
-            CornerRadius="20">
+            CornerRadius="1000">
         <Grid>
             <Grid.ColumnDefinitions >
                 <ColumnDefinition Width="200"/>
@@ -32,7 +33,18 @@
                 <RadioButton Content="Home"
                              Height="50"
                              Foreground="White"
-                             FontSize="14"/>
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"/>
+              <RadioButton Content="Featured"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"/>
+              <RadioButton Content="Discovery"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
         </Grid>
         
