@@ -11,7 +11,7 @@
         AllowsTransparency="True"
         Title="MainWindow" Height="600" Width="920">
     <Border Background="#272537"
-            CornerRadius="1000">
+            CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions >
                 <ColumnDefinition Width="200"/>
@@ -22,6 +22,12 @@
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+          <TextBox Grid.Column="1"
+                   Width="250"
+                   Height="40"
+                   VerticalContentAlignment="Center">
+            
+          </TextBox>
 
             <TextBlock Text="Filip K"
                        VerticalAlignment="Center"
