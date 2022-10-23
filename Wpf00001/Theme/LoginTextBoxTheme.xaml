@@ -1,14 +1,14 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Style TargetType="{x:Type TextBox}" 
-           x:Key="ModernTextBox">
+           x:Key="LoginTextBox">
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="TextBox">
                     <Border CornerRadius="10"
                             Background="#353340"
                             Height="40"
-                            Width="200">
+                            Width="300">
                         <Grid>
                             <Rectangle StrokeThickness="1"/>
                             <TextBox Margin="1"
@@ -26,7 +26,8 @@
                                        Margin="10,0,0,0"
                                        FontSize="11"
                                        Foreground="DarkGray"
-                                       Grid.Column="1">
+                                       Grid.Column="1"
+                                       >
                                 <TextBlock.Style>
                                     <Style TargetType="{x:Type TextBlock}">
                                         <Style.Triggers>
@@ -37,10 +38,10 @@
                                         <Setter Property="Visibility" Value="Hidden"/>
                                     </Style>
                                 </TextBlock.Style>
-                                
+
                             </TextBlock>
                         </Grid>
-                        
+
                     </Border>
                 </ControlTemplate>
             </Setter.Value>
